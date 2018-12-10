@@ -22,7 +22,7 @@ $content = '';
 if(empty($page)) {
 	$header = 'Start';
 	/*Old way from Beginning--> <div class="content">Long text...</div>*/
-    $content = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
+    $content = 'Välkommen till det hemliga KaviarChan! Här diskuteras allt aktuellt inom kaviarens värld! Om du ser denna sida så betyder det att du är en av dem få utvalda från hela Sverige. Om du skulle våga dela denna sida så kommer en av våra insattstyrkor att hälsa på!';
     require ('resources/templates/page-template.php');
 }
 
@@ -62,7 +62,7 @@ elseif($page == 'blogg') {
 elseif($page == 'kontakt') {
 	$header = 'Kontakt';
 	/*Old way from Beginning--> <div class="content">Info...</div>*/
-    $content = 'Du når oss på epost@labb2.se';
+    $content = 'Du kan inte nå oss din pajas!';
     require ('resources/templates/page-template.php');
 }
 
@@ -71,7 +71,7 @@ elseif($page == 'kontakt') {
 else {
 	/*echo "Den sökta sidan finns inte";*/
 	$header = 'error 404';
-	$error = 'Den här sidan finns inte!';
+	$error = 'Den här sidan finns inte! CX';
 	require ('resources/templates/page-template.php');
 }
 ?>

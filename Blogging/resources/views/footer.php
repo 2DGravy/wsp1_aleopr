@@ -6,7 +6,7 @@
 <!-- |   FOOTER AREA   | -->
 <!-- +=================+ -->
 <footer>
-    <p>Vårt första PHP-projekt, <?php echoYear();?>!</p>
+    <p>KaviarChan, <?php echoYear();?>!</p>
 </footer>
 <!-- +=================+ -->
 

@@ -34,7 +34,7 @@ function echoYear(){
         echo 'copyright 2017';
     }
     else {
-        echo 'copyright 2017-' . $year;
+        echo 'copyright 2001-' . $year;
     }
 }
 
